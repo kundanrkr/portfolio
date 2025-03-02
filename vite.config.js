@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.VITE_GITHUB_PAGES === "true" ? "/your-repo-name/" : "/",
+  base: process.env.VITE_GITHUB_PAGES === "true" ? "/portfolio/" : "/",
 });
